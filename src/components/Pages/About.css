@@ -1,0 +1,137 @@
+.about-us {
+    padding: 20px;
+  }
+
+  .about-us h1 {
+    font-size: 30px;
+    font-family: 'Cinzel', sans-serif;
+  }
+
+  .discover li{
+    padding-left: 0;
+    font-size: 18px;
+    line-height: 45px;
+  }
+
+  .testimonial{
+    background: #fff;
+    padding: 40px 0;
+    background-image: url(../../assets/cart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    background-position: bottom;
+    z-index: -99;
+    background-blend-mode: darken;
+    padding: 20px 0;
+    background-color: rgb(0 0 0 / 20%);
+}
+.testimonial .section-header h2{
+    font-size: 58px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 400;
+}
+
+.testimonial p {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 80px;
+    padding: 20px 0;
+}
+.testimonial .test-name {
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'agenor';
+    letter-spacing: 1px;
+}
+
+
+.about{
+    text-align: center;
+    font-size: 20px;
+}
+
+.journey{
+    text-align: center;
+    padding: 20px 0;
+}
+.journey h2{
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 400;
+}
+
+.apart{
+    padding: 20px;
+}
+.apart h2{
+    text-align: center;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 400;
+}
+
+
+.apart ol{
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+.apart li{
+    line-height: 35px;
+}
+
+.dis h2{
+    text-align: center;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 400;
+}
+
+
+.dis p{
+    margin-top: 20px;
+}
+
+.discover span{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.satis {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.satis h2{
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 400;
+}
+
+
+.satis p{
+    margin-top: 20px;
+}
+
+.apart span{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.feedback{
+    padding: 20px;
+    text-align: center;
+}
+
+.feedback .send-btn{
+    margin-top: 20px;
+    width: 12%;
+    height: auto;
+}

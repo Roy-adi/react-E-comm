@@ -1,0 +1,110 @@
+/* .hero-banner {
+    padding: 40px 0;
+    position: relative;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column-reverse;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner-img {
+    position: relative;
+    z-index: 9;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.text-content {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 300px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.ctas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.banner-cta {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    width: fit-content;
+    border: 2px solid white;
+    padding: 10px 20px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+} */
+
+
+
+
+
+ .slider-banner-container {
+    align-items: center; /* Center vertically */
+    overflow: hidden;
+    width: 100%; /* Set width to 100% of the viewport width */
+    height: 100vh;
+}
+
+
+.banner-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgb(0 0 0 / 10%);
+    background-blend-mode: darken;
+}
+
+.banner-title{
+    position: absolute;
+    top: 15%;
+    left: 54%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-title h4{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'Cinzel', sans-serif;
+    letter-spacing: 4px;
+}
+
+.banner-title p{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Cinzel', sans-serif;
+    letter-spacing: 2px;
+}

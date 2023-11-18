@@ -1,0 +1,101 @@
+.right-side {
+    margin: 20px 32px 32px 32px;
+    
+}
+
+.prod-sec{
+    padding: 80px 80px;
+}
+
+.related-products{
+    padding: 50px 40px
+}
+
+.left {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Add a box shadow to the image */
+  .left img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Apply a zoom effect on hover */
+  .left img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Optional: Add a border-radius to round the corners of the image */
+  .left img {
+    border-radius: 8px;
+  }
+
+.left{
+    width: 100%;
+    margin-left: 15%;
+}
+.left img{
+    width: 57%;
+}
+
+#perfume {
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+#header {
+    font-family: 'Fraunces', serif;
+    line-height: 1;
+    color: hsl(212, 21%, 14%);
+    margin-bottom: 25px;
+}
+
+#description {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+
+#number-discount, #number-full {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#number-discount {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    margin-right: 10px;
+}
+
+#number-full {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.cart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: background-color 0.2s;
+    margin-top: 6px
+}
+
+.cart-btn:hover {
+    background-color: hsl(156, 42%, 18%);
+    cursor: pointer;
+}

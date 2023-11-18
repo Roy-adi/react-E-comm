@@ -1,0 +1,8 @@
+.category-heading{
+    text-align: center;
+   margin: 20px 0;
+   text-transform: capitalize;
+ font-family: 'Cinzel', sans-serif;
+ text-decoration: underline;
+   font-weight: 500;
+}

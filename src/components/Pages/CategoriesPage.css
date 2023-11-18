@@ -1,0 +1,13 @@
+.cat-page h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Cinzel', sans-serif;
+    margin-top: 20px;
+    letter-spacing: 5px;
+}
+
+.cat-card{
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
